@@ -17,6 +17,11 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
     }
+//    versionCatalogs {
+//        libs {//libs 用作預設版本目錄。無需配置
+//            from(files("gradle/libs.versions.toml"))
+//        }
+//    }
 }
 
 rootProject.name = "MyFirstApp"
